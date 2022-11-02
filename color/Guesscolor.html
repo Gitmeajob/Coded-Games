@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color Game</title>
+		<link rel="stylesheet" type="text/css" href="color.css">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>Krolls <span id="color-display"> Great Color</span> Guessing Game</h1>
+		<div id ="stripe">
+			<button id="reset">New Colors</button>
+			<span id="message"></span>
+			<button class="mode">Easy</button>
+			<button class="mode">Medium</button>
+			<button class="mode selected">Hard</button>
+		</div>
+		<div id="container">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+		<iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+		<audio id="player" autoplay loop>
+			<source src="glow.mp3" type="audio/mp3">
+		</audio>
+	</body>
+	<script type="text/javascript" src="color.js"></script>
+</html>
